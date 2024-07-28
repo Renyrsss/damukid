@@ -139,3 +139,18 @@ footer {
 .main__subTitle p a {
     color: white;
 }
+
+@media screen and (max-width: 540px) {
+    .header__row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .flexMenu {
+        flex-direction: column;
+    }
+
+    .info .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
