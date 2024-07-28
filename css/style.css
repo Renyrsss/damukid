@@ -1,0 +1,141 @@
+html {
+    background-color: rgb(65, 150, 206);
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 0;
+}
+.header__logo {
+    background-color: rgb(65, 150, 206);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    flex: 1 0 auto;
+    /* text-align: center; */
+}
+.main__c {
+    height: 100%;
+}
+.main__row {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__title p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.main__subTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(48, 48, 179);
+    padding: 7px 50px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+}
+.info__side .forSize {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.info {
+    height: 100%;
+    padding-top: 40px;
+}
+.aside {
+    flex: 0 0 20%;
+}
+.aside a {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.info__side {
+    flex: 1 1 auto;
+}
+.info__side h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info__side p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.info__side img {
+    width: 700px;
+    margin-bottom: 40px;
+    border-radius: 9px;
+}
+.info__side__title {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.main__subTitle li {
+    /* cursor: pointer; */
+}
+
+.main__subTitle ol {
+    margin-left: 20px;
+}
+
+.flexMenu {
+    display: flex;
+    justify-content: space-between;
+}
+.flexSize {
+    flex: 0 0 45%;
+    margin-right: 50px;
+}
+.mainmenu {
+    color: white;
+}
+
+.mainA {
+    color: black;
+}
+
+.main__subTitle a {
+    /* color: white; */
+}
+.main__subTitle p a {
+    color: white;
+}
